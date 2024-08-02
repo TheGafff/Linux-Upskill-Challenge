@@ -1,6 +1,7 @@
 # Linux-Upskill-Challenge
 How I am learning basic Linux system administration
-https://linuxupskillchallenge.org/
+
+https://linuxupskillchallenge.org/ | https://github.com/livialima/linuxupskillchallenge
 
 ## A monthlong course designed to increase admin skills of a remote [[Linux]] server from the command line
 
