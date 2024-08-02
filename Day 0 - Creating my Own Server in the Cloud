@@ -1,0 +1,28 @@
+## We need a server to learn how to administer Linux servers, duhhhhh
+Day 0 of the [[Linux Upskill Challenge]]
+https://linuxupskillchallenge.org/00-Local-Server
+We will be creating and renting a [[VPS]]. This machine has been turned into a dozen or more Virtual servers using [[KVM]]
+
+We will be using [[Ubuntu Server]] LTS (Long Term Support), as the documentation is written for this version of Linux
+
+We need to find a Cloud VPS to use in order to simulate the real deal
+
+We will be going with AWS free, since it is free for a year! This is my first experience with AWS (or really any cloud service) so this should be a fantastic learning experience
+
+### [[EC2]] info
+For the [[Linux Upskill Challenge]] we will be using a t2.micro EC2 instance name Upskill
+
+We will be running [[Ubuntu 24.04]] LTS ([[HVM]])
+
+Key Pair: [redacted]
+
+[[IPv4]]: [redacted]
+
+After I set this info and allow all traffic (opening the server up to the wild west of the internet), we are on our way. For the time being, we are using the AWS Management Console to connect to our server. In the future, we will [[SSH]] into Upskill, but that knowledge will come on day 1.
+
+Once we connect to the server, all we do on day 0 is ensure that it is relatively secure before letting it sit for a few days in the abyss of some Beaverton data center. We connect to Upskill for the first time to run some basic commands that should be baseline for booting into Linux for the first time. We check for updates, then apply them.
+
+`sudo apt update`
+`sudo apt upgrade`
+
+After the updates download, I then say goodbye to Upskill for the next few days. I trust she will be alright. I will miss her over the weekend, but I am excited to start building this server out in the coming month! Linux Upskill Challenge, here we go!!!
